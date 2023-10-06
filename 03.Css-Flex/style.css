@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#one, #two, #three, #four{
+    display: flex;
+    height: 20vh;
+}
+
+#center {
+    width: 100% !important;
+    height: 100vh;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+
+}
+#one {
+    gap: 70px;
+}
+
+#two, #three, #four {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.greenDiv {
+    background-color: seagreen;
+    height: 100%;
+    border: 5px solid black;
+}
+
+.one1{
+    width: 10%;
+}
+.one2{
+    width: 80%;
+}
+.one3{
+    width: 10%;
+}
+
+
+
+.two1{
+    width: 80%;
+}
+.two2{
+    width: 7%;
+}
+.two3{
+    width: 20%;
+}
+
+
+
+.three1{
+    width: 10%;
+}
+.three2{
+    width: 20%;
+}
+.three3{
+    width: 80%;
+}
+
+.four1{
+    width: 30%;
+}
+.four2{
+    width: 10%;
+}
+.four3{
+    width: 30%;
+}
+.four4{
+    width: 10%;
+}
+.four5{
+    width: 30%;
+}
