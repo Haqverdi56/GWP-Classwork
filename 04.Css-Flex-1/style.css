@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#semanticHeader {
+    height: 5vh;
+    background-color: black;
+}
+
+#semanticSection {
+    padding: 0 4rem;
+}
+
+#semanticSection > div {
+    margin-top: 1rem;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#semanticSection > div div {
+    background-color: darkcyan;
+    height: 30vh;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#semanticFooter {
+    height: 5vh;
+    margin: 0 4rem;
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 4rem;
+}

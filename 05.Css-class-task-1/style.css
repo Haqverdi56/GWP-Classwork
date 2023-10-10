@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, violet, red);
+}
+
+#semanticSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#semanticSection > #centerDiv {
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#semanticSection .logInCont p{
+    color: white;
+    padding: .8rem;
+    font-size: 22px;
+}
+
+.instDiv p {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.logInForm .inputIn {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    margin-top: 1rem;
+}
+.logInForm .inputIn:focus {
+    outline: none;
+}
+
+.logDivButton button {
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.socialLinks .fbLink {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: darkblue;
+}
+.socialLinks .forgot{
+    font-size: 1rem;
+    text-decoration: none;
+    color: blue
+}
+
+.signUp {
+    border: 1px solid grey;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.signUp a {
+    font-weight: 800;
+    color:#2e2ecc;
+    margin-left: .5rem;
+    font-size: 20px;
+}
