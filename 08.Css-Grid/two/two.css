@@ -1,0 +1,116 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 1em 1em;
+  grid-auto-flow: row;
+  padding: 1rem;
+  grid-template-areas:
+    "a b c d d e e"
+    "a b c d d e e"
+    "f f g g g h i"
+    "f f g g g h i"
+    "f f g g g h i"
+    "j k g g g h i"
+    "j k g g g n n"
+    "l l m m m n n";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.i {
+  grid-area: i;
+}
+
+.j {
+  grid-area: j;
+}
+
+.k {
+  grid-area: k;
+}
+
+.l {
+  grid-area: l;
+}
+
+.m {
+  grid-area: m;
+}
+
+.n {
+  grid-area: n;
+}
+
+/* For presentation only, no need to copy the code below */
+
+html,
+body,
+.container {
+  min-height: 100%;
+  margin: 0;
+  background: #fff;
+  font-family: "Helvetica Neue";
+  color: #a770f1;
+}
+
+.container > div[class] {
+  background: #ececec;
+  position: relative;
+  border-radius: 1rem;
+  font-weight: bold;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.black {
+  color: #000;
+}
+
+/* 
+  .container *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   */

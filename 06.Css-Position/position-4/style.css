@@ -1,0 +1,47 @@
+body {
+	box-sizing: border-box;
+	font-family: "Verdana", sans-serif;
+	background: linear-gradient(#999,#333);
+}
+#wrapper {
+	height: 300vh;
+	
+}
+header, section, article, footer {
+	border: 8px solid rgb(0, 11, 128);
+	border-radius: 12px;
+	padding: 12px;
+	margin-bottom: 32px;
+}
+header {
+	background:	 tan;
+	position: fixed;
+	top: 0;
+	width:calc(100vw - 58px);
+	height: 200px;
+}
+section {
+	margin-top: 260px;
+	background: palegreen;
+	position: relative;
+	left: 80px;
+
+}
+article {
+	background-color: darkcyan;
+}
+footer {
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background-color: dodgerblue;
+}
+#dot {
+	width: 32px;
+	height: 32px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top:0;
+	right: 0;
+}

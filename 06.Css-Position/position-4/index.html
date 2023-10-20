@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <header>
+            <!-- <h1>Fixed Positioning</h1> -->
+            <p>Does not scroll. This element is set to fixed. Common issues:</p>
+            <ul>
+                <li>The element's width collapses - so you have to add 'width: 100%;' to your CSS.</li>
+                <li>The element covers up other content. You'll have to move that other content, with margin rules or something else.</li>
+                <li>You must indicate where the element will be fixed - the most common calue being 'top: 0;'</li>
+            </ul>
+                </header>
+        
+        <section>
+            <!-- <h1>Relative Positioning</h1> -->
+            <p>Allows you to 'scoot' something around a little bit. This element is shifted 80px t the right. Common issues:</p>
+            <ul>
+                <li>Cannot be used to fix major layout issues</li>
+                <li>The element may cover up other content. </li>	
+            </ul>
+        </section>
+        
+        <article>
+            <!-- <h1>Absolute Positioning</h1> -->
+            <p>Allows you force an element out of the DOM and put it exactly where you want it. Common issues:</p>
+            <ul>
+                <li>Can totally collapse the layout of a page.</li>
+                <li>The space an element is moved 'from' is not filled in, it remains blank</li>
+                <li>there's a little red circle in the upper-right corner that illustrates absolute positioning.</li>
+            </ul>
+            
+        </article>
+        
+        
+        <footer>
+                <!-- <h1>Sticky Positioning</h1> -->
+            <p>Allows you force an element to 'stick' ot the top of the page once it's scrolled to (scroll to this one to see!)</p>
+            <ul>
+                <li>requires a width value, or it collapses</li>
+                <li>Requires a 'top' value to know where to stop</li>
+            
+            </ul>
+        </footer>
+        
+        <div id="dot">
+        </div>
+        </div>
+    
+</body>
+</html>

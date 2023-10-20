@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+  padding: 1rem;
+  background-color: #20484f;
+}
+#header > div p {
+  color: white;
+  font-size: 2.1rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navigation ul li {
+  font-size: 1.2rem;
+}
+
+.navigation ul li a {
+  color: white;
+}
+
+.headBoxBtn button:nth-child(1) {
+  background-color: #b8e4da;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.headBoxBtn button:nth-child(2) {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}

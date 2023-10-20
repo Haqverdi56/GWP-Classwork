@@ -1,0 +1,30 @@
+body {
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  height: 300%;
+}
+
+.list {
+  padding: 20px;
+}
+
+.list-content {
+  padding: 10px 20px;
+}
+.list-header {
+  position: sticky;
+  top: 0px;
+  background-color: #333;
+  color: #00ff6c;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.list-group {
+    height: 30vh;
+}
