@@ -1,0 +1,51 @@
+                                ... TASK 1 ...
+Hava 22 dərəcədən çoxdursa consol-a: Nazik geyin, 15 dərəcədən çoxdursa "Pencək geyin", qalan hallarda "Qalın geyin" yazdırın
+
+
+                                ... TASK 2 ...
+
+İstifadəçinin giriş etdiyi hərfin Sait və samit hərf olub olmadığını yoxlayın.
+
+
+if(letter == "a" || letter == "i" || )
+                                ... TASK 3 ...
+
+3. Maksimum Sayın Tapılması:
+Üç ədəd arasında ən böyük ədədi tapın.
+
+Məsələn: 
+let a ;
+let b ;
+let d ;
+
+
+                                ... TASK 4 ...
+
+İmtahan qiymətləndirməsi üçün istifadəçidən giriş edilən rəqəmi imtahan nəticəsi olaraq qiymətləndirin.
+
+90-dan çoxdursa Exam grade: A
+80-dan çoxdursa Exam grade: B
+70-dan çoxdursa Exam grade: C
+60-dan çoxdursa Exam grade: D
+50-dan çoxdursa Exam grade: F
+
+                                ... TASK 5 ...
+
+
+
+İstifadəçinin adını yazmasına imkan verən bir script yazın. Script adın uzunluğuna görə cavab verəcək.
+
+
+let firstName = "Fidan"
+
+1. 5 simvola qədər: "Salam <userName>. Qısa adınız var"
+2. 10-a qədər simvol: "Salam, <userName>. Orta uzunluqlu adınız var."
+3. 10-dan çox simvol: "Salam <userName>. Adınız çox uzundur.".
+
+
+
+console.log(firstName.length)
+
+                                ... TASK 6 ...
+
+userName və parol adlı variable yaradın. və 

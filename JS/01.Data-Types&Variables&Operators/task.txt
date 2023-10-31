@@ -1,0 +1,68 @@
+                    // ---------    // TASK 1 --------------- //
+// PART 1 
+// firstName ve lastName dəyişənləri yaradın sonra fullName adında dəyişən yaradıb 
+// firstName və lastName-ə bərabər edib fullName-i console-da yazın.
+Output:
+Jon Doe.
+
+// PART 2
+// Daha sonra country, age, job dəyişənlərini əlavə edin və consolda belə bir şey çıxardın.
+Output
+Jon Doe. I am a teacher. I live in Azerbaijan. I am 20 years old
+
+let fullName = "Jhon Doe"
+let job = "teacher";
+let country = "Aze";
+
+let age = 29;                 // ---------    // TASK 2 --------------- //
+
+
+let personalInfo;
+
+personalInfo = "My name is " + fullname + ". I am a " + job + ". I am " + age + "."
+
+
+console.log(personalInfo)
+// Aşağıdakı dəyişənlərin hansı data type-da olduğunu qarşısından yazın:
+
+let length = 16; // number
+
+console.log(typeof length)
+
+let color = "Brown"; // 
+
+let float = "12.5"; // 
+
+let like = true // 
+
+let x = {
+  firstName: "Nick",
+  color: "Red",
+}; // 
+
+
+
+                    // ---------    // TASK 3 --------------- //
+
+// Uzaqlığı 8600km olan bir ölkəyə, saatda 120km sürətlə gediriksə maşın neçə dəqiqəyə çatar?
+
+Output:
+The car will arrive in China in 9999 minutes.
+
+let distance = 8600;
+let speed = 120;
+let duration = distance / speed;
+
+console.log("The car will arrive in China in" + duration + " minutes)
+                    // ---------    // TASK 4 --------------- //
+
+// Doğum ilinizi və cari ili bir dəyişənə bərabər edib, hazırki yaş aralığınızı console-da yazdırın.
+
+Output:
+I will be either 21 or 22.
+
+                    // ---------    // TASK 5 --------------- //
+// Sinifdəki tələbələrin ortalamasını tapın. Tələbə sayısı 4.
+
+
+
