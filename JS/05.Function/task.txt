@@ -1,0 +1,66 @@
+-------------------------------------------------  TASK 1   -------------------------------------------------
+
+
+printFullName adında funksiya yaradırsız və 2 parameter qəbul edir (firstName: "lorem", lastName: ipsum)
+// console.log(printFullName()) // I am Gulputa Malikova
+
+function printFullName(firstName = "lorem", lastName = "ipsum") {
+  return `I am ${firstName} ${lastName}`;
+}
+
+console.log(printFullName("gulputa", "malikova"));
+
+-------------------------------------------------  TASK 2   -------------------------------------------------
+
+4 funksiya yazın. Hər biri 2 parametr qəbul etsin və riyazi əməlləri yerinə yetirsin.
+
+console.log(sum(2, 3)); // 5
+console.log(multiply(2, 3)); //6
+console.log(subtruct(2, 3)); //-1
+console.log(divide(2, 3)); // 0,666666
+
+-------------------------------------------------  TASK 3   -------------------------------------------------
+
+Elə bir funksiya yazın ki, 3 parametr qəbul etsin, 2 ədəd və 1 ədəd operator. Operatora uygun nəticəni return etsin.
+
+
+-------------------------------------------------  TASK 4   -------------------------------------------------
+
+filterEmployees adında funksiya yaradın, parameter kimi bir array alsın və salary > 60000 olan objectləri return etsin
+const employees = [
+  { name: "Jamil", salary: 50000, department: "IT" },
+  { name: "Jale", salary: 60000, department: "HR" },
+  { name: "Bayram", salary: 55000, department: "IT" },
+  { name: "Sahil", salary: 75000, department: "HR" },
+  { name: "Maryam", salary: 65000, department: "IT" },
+  { name: "Elnara", salary: 80000, department: "HR" },
+  { name: "Davud", salary: 70000, department: "IT" },
+];
+
+-------------------------------------------------  TASK 5   -------------------------------------------------
+
+reverseString - adında bir function təyin edin, parametr kimi string göndərin və tərs çevirin
+
+# reverseString("Hello") nəticə olaraq belə görünməlidir. ====> olleH
+
+console.log(reverseString("Hello"))
+
+str += string[i]
+
+-------------------------------------------------  TASK 6   -------------------------------------------------
+
+let str = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi aut suscipit dolores, similique hic non sed, voluptatibus ut nihil praesentium, omnis nesciunt optio eius? Repudiandae velit doloremque ut deleniti dolorem!";
+
+Sizə verilən cümlənin neçə hərfdən ibarət olduğunu tapan funksiya yazın.
+
+
+-------------------------------------------------  TASK 7   -------------------------------------------------
+
+Sizə verilən cümlədə ən uzun olan sözü tapın.
+
+-------------------------------------------------  TASK 8   -------------------------------------------------
+
+function təyin edin və parametr kimi söz göndərin, bu sözü alıb əlifba sırası ilə göstərin.
+
+webmaster ====> abeemrstw
+

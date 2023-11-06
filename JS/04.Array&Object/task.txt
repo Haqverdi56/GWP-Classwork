@@ -1,0 +1,67 @@
+// TASK 1
+const numbers = [12, 45, 6, 78, 34, 99, 23];
+
+Verilmiş array-da ən böyük və ən balaca elementi tapın. => Ən böyük rəqəm: 99, Ən kiçik rəqəm: 6
+
+
+// TASK 2 
+
+const numbers = [12, 45, 6, 78, 34, 99, 23];
+
+Verilmiş arrayın elementlərinin cəmini hesablayın.
+
+
+// TASK 3
+
+const elements = [1, 2, 3, 4, 5];
+
+Verilmiş array-da 2-ci index ilə 3 index-in yerin dəyişdirin: => [1, 2, 4, 3, 5]
+
+
+// TASK 4
+
+const numbers = [12, -5, 6, -3, 34, -1, 23];
+
+Verilmiş array-da müsbət rəqəmləri consol-a çıxardın.
+
+
+// TASK 5
+
+const originalArray = [1, 2, 3, 4];
+
+Verilmiş array-da index-ləri n qədər təkrar edərək consol-a çıxardın. => [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4];
+
+
+// TASK 6 
+
+const numbers = [12, 45, 6, 78, 34, 99, 23]; 
+
+Verilmiş array-da tək və cüt ədədləri ayrı-ayrı consol-a çıxardın.
+
+
+// TASK 7
+
+const originalArray = [1, 2, 3, 4, 5];
+
+Verilmiş array-da ədədləri tərs çevirib consol-a çıxardın.
+
+
+// TASK 8 
+
+Verilmiş array-da object-lərin key-lərin value-larını consola-a çıxardın.
+
+const students = [
+    {
+        name: "Sharifa",
+        surname: "Aliyeva",
+        studentNumber: "12345",
+        grades: [85, 75, 92]
+    },
+    {
+        name: "Lorem",
+        surname: "Ipsum",
+        studentNumber: "67890",
+        grades: [72, 88, 58]
+        
+    }
+];
