@@ -36,7 +36,7 @@
 //     return letterCount;
 // }
 
-// console.log(charCount('w3rCescource.com', 'c'));
+// console.log(charCount('w3rescource.com', 'c'));
 
 // ----------------------------------------------------- TASK 3 -----------------------------------------------------
 
@@ -45,11 +45,12 @@ function makeId(length) {
   let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
   for (let i = 0; i < length; i++) {
-    text += charList.charAt(Math.floor(Math.random() * charList.length));
+    text += charList.charAt(Math.floor(Math.random() * charList.length))
   }
+  
   return text;
 }
-console.log(makeId(10));
+console.log(makeId(16));
 
 // ----------------------------------------------------- TASK 4 -----------------------------------------------------
 
