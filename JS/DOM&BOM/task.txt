@@ -1,0 +1,30 @@
+--------------------------------------------------------- TASK 1 ---------------------------------------------------------
+
+Bir dəyişən təyin edin və dəyəri 1 olsun. 1 saniyədən bir consol-da yaratdığınız dəyişənin dəyərini +1 artırın. 4 saniyə 
+sonra intervalı sonlandırın.
+
+--------------------------------------------------------- TASK 2 ---------------------------------------------------------
+
+HTML-də button və text üçün tag yazın. button-a click ettikdə text-içindəki yazı dəyişsin.
+
+--------------------------------------------------------- TASK 3 ---------------------------------------------------------
+
+HTML-də birdən çox eyni adda class sahib element yaradın. Hər bir elementi loop ilə tək-tək console-a çıxardın. 
+
+--------------------------------------------------------- TASK 4 ---------------------------------------------------------
+
+// let str = "developer";
+
+Verilmiş string-in hər bir hərfini 1 saniyədən bir böyük hərf edin.
+
+Developer
+DEveloper
+DEVEloper
+DEVELOper
+DEVELOPer
+DEVELOPEr
+DEVELOPER
+
+--------------------------------------------------------- TASK 5 ---------------------------------------------------------
+
+HTML-də button yaradın və ona click ettikdə body-nin background color-u dəyişsin.
