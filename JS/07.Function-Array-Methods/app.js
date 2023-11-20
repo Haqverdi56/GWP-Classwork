@@ -40,17 +40,17 @@
 
 // ----------------------------------------------------- TASK 3 -----------------------------------------------------
 
-function makeId(length) {
-  let text = "";
-  let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+// function makeId(length) {
+//   let text = "";
+//   let charList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  for (let i = 0; i < length; i++) {
-    text += charList.charAt(Math.floor(Math.random() * charList.length))
-  }
+//   for (let i = 0; i < length; i++) {
+//     text += charList.charAt(Math.floor(Math.random() * charList.length))
+//   }
   
-  return text;
-}
-console.log(makeId(16));
+//   return text;
+// }
+// console.log(makeId(16));
 
 // ----------------------------------------------------- TASK 4 -----------------------------------------------------
 

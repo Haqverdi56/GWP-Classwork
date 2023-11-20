@@ -1,28 +1,29 @@
 //-------------------------------------------------------- TASK 1 --------------------------------------------------------
 
-// const employees = {
-//  secretary: 'Pams',
-// 	sales: 'Jim',
-// 	boss: 'Michael',
-// 	accountant: 'Oscar'
-// };
+const employees = {
+    secretary: 'Pams',
+	sales: 'Jim',
+	boss: 'Michael',
+	accountant: 'Oscar',
+	accountan: ["kmnjjn", "klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk","klkkmmk",],
+};
 
-// // const keys = Object.keys(employees);
-// const values = Object.values(employees);
-// // const entries = Object.entries(employees);
+// const keys = Object.keys(employees);
+const values = Object.values(employees);
+// const entries = Object.entries(employees);
 
-// // // console.log(keys);
-// // // console.log(values);
-// // // console.log(entries);
+// console.log(keys);
+// console.log(entries);
 
-// // //4. Ən uzun length
-// let max = '';
-// for (let i = 0; i < values.length; i++) {
-//     if (values[i].length > max.length) {
-//         max = values[i]
-//     }
-// }
-// console.log(max);
+//5. Ən uzun length
+let max = '';
+for (let i = 0; i < values.length; i++) {
+    
+    if (typeof values[i] == 'string' &&values[i].length > max.length) {
+        max = values[i]
+    }
+}
+console.log(max);
 
 //-------------------------------------------------------- TASK 2 --------------------------------------------------------
 

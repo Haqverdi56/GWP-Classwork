@@ -1,21 +1,21 @@
 ---------------------------------------------------------- TASK 1 ----------------------------------------------------------
 
-const employees = {
-	boss: 'Michael',
-	secretary: 'Pam',
-	sales: 'Jim',
-	accountant: 'Oscar'
+const person = {
+	firstName: 'Michael',
+	lastName: 'Pam',
+	age: 26,
+	city: 'Poland'
 };
 
 1. employees object-nin sadəcə key-lərini console-a çıxardın.
 2. employees object-nin sadəcə value-lərini console-a çıxardın.
 3. Aşağıdakı kimi console-a çıxardın.
-    boss: Michael
-    secretary: Pam
-    sales: Jim
-    accountant: Oscar
-4. Ən uzun olan value-nu console-a çıxardın.
-5. object-in age key-ini silin.
+    [firstName: 'Michael']
+    [lastName: 'Pam']
+    [age:26]
+    [city: 'Poland']
+4. object-in age propertysini silin.
+5. Ən uzun string value-nu console-a çıxardın.
 
 ---------------------------------------------------------- TASK 2 ----------------------------------------------------------
 
@@ -48,6 +48,18 @@ You still need to read 'Suzanne Collins' by Mockingjay: The Final Book.
 
 ---------------------------------------------------------- TASK 3 ----------------------------------------------------------
 
+let employee = {
+    name: 'Shahana',
+    jobTitle: 'Software Developer',
+    salary: 75000,
+    promote: function(p1, p2) {
+      this.jobTitle = p1;
+      this.salary = p2
+      console.log(p1, p2)
+    }
+  };
+
+
 "employee" adlı object yaradın. Object-in name, jobTitle, salary və promote adında key-ləri var.
 promote bir anonim function-dır, 2 parametr qəbul edir. jobTitle-in value-ı ilk dəfə "Software Developer" salary isə 75000.
 Ən sonda employee.promote-a bir yeni vəzifə və yeni maaş göndərin.
@@ -76,4 +88,3 @@ console.log(character); ====>> // {firstName: "Philip", lastName: "Fry", job: "D
 
 ladder adlı object yaradın. step adında dəyəri 0-olan key yazın. Bundan əlava object-in 2 ayrı function-ı olsun. up və down.
 up function step-in dəyərin +1 artırsın. down isə -1 azaltsın.
-x

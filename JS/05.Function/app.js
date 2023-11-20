@@ -19,14 +19,14 @@
 // }
 // console.log(alphabet_order("webmaster"));
 
-function calculator(num1, num2, operator) {
-  let result;
-  
-  if (operator === "+") {
-    result = num1 + num2;
-  } else if (operator === "*") {
-    result = num1 * num2;
-  }
+// function calculator(num1, num2, operator) {
+//   let result;
 
-  return result;
-}
+//   if (operator === "+") {
+//     result = num1 + num2;
+//   } else if (operator === "*") {
+//     result = num1 * num2;
+//   }
+
+//   return result;
+// }

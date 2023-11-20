@@ -5,7 +5,7 @@ sonra intervalı sonlandırın.
 
 --------------------------------------------------------- TASK 2 ---------------------------------------------------------
 
-HTML-də button və text üçün tag yazın. button-a click ettikdə text-içindəki yazı dəyişsin.
+HTML-də button və text üçün tag yaradın.. button-a click ettikdə text-içindəki yazı dəyişsin.
 
 --------------------------------------------------------- TASK 3 ---------------------------------------------------------
 
