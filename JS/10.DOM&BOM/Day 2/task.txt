@@ -1,0 +1,25 @@
+-------------------------------------------------------- TASK 1 --------------------------------------------------------
+
+button yaradın. click etdikdə parent elementinə style verin. width, height, bg color.
+
+
+-------------------------------------------------------- TASK 2 --------------------------------------------------------
+
+Light and dark theme.
+
+-------------------------------------------------------- TASK 3 --------------------------------------------------------
+
+html-də imgDiv classlı bir div yazın. Daha sonra javascript ilə img tag-i yaradın. Yaratdığınız img tag-nin src 
+attributuna bir şəkil path-i yazın.
+
+-------------------------------------------------------- TASK 4 --------------------------------------------------------
+
+ul yaradın. Daxilinə li elementləri əlavə edin. Hər bir li elementinə click etdikdə, li elementi silinsin.
+
+const liArr = ["Ganja","Baku","Yevlakh","Goranboy","Shamkir"];
+
+-------------------------------------------------------- TASK 5 --------------------------------------------------------
+
+Create a Navbar
+
+

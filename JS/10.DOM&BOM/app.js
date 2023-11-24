@@ -55,8 +55,8 @@ let body = document.getElementById("body");
 let colors = ["blue", "red", "green", "blueviolet", "dodgerblue", "black"];
 
 
-colorBtn.addEventListener("click", function () {
-    console.log(colors[Math.floor(Math.random() * colors.length)]);
+colorBtn.addEventListener("keyup", function (e) {
+  console.log(e.keyCode);
   body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 });
 
