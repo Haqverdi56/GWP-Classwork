@@ -1,0 +1,87 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dark Mode Toggle</title>
+		<style>
+			body {
+				transition: background-color 0.5s;
+			}
+			.dark-mode {
+				background-color: #333;
+				color: #fff;
+			}
+			.dark-mode p {
+				color: white;
+			}
+			.content 
+			.card {
+				background-color: #fff;
+				color: #333;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				padding: 20px;
+				margin: 10px;
+				width: calc(30% - 20px);
+				box-sizing: border-box;
+				transition: background-color 0.5s, color 0.5s, transform 0.2s;
+			}
+
+			.dark-mode .card {
+				background-color: #474747;
+				color: #fff;
+				border-color: #555;
+			}
+
+			.dark-mode .card p {
+				color: white;
+			}
+
+			#darkModeToggle {
+				background-color: #3498db;
+				color: #fff;
+				padding: 10px 15px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				transition: background-color 0.3s;
+			}
+
+			#darkModeToggle:hover {
+				background-color: #2980b9;
+			}
+
+			h2 {
+				color: #3498db;
+			}
+
+			p {
+				color: #555;
+			}
+		</style>
+
+	</head>
+	<body>
+		<button id="darkModeToggle">Toggle Dark Mode</button>
+		<div class="content">
+			<h1>Sample Content</h1>
+			<p>This is some sample content.</p>
+		</div>
+
+		<div class="content">
+			<div class="card">
+				<h2>Card 2</h2>
+				<p>This is the content of Card 2.</p>
+			</div>
+
+			<div class="card">
+				<h2>Card 3</h2>
+				<p>This is the content of Card 3.</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -3,7 +3,7 @@
 var number = 224112;
 
 function reverse(num) {
-  // console.log("Number", typeof String(num));
+  
   
   var result = String(num).split("").reverse().join("");
   
@@ -114,13 +114,9 @@ function letterOrder(str) {
 // ];
 
 // for (let i in a) {
-//   console.log("row " + i);
+  
 //   for (let j in a[i]) {
 //     console.log( a[i][j]);
 //   }
 // }
 
-
-let str = "sema";
-
-console.log(str.split("").sort())
